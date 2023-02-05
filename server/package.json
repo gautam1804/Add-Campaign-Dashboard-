@@ -5,7 +5,11 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
+<<<<<<< HEAD
     "dev": "nodemon index.js"
+=======
+    "dev": "node index.js"
+>>>>>>> c3a0a9bdfda83d3b73e1c28da679ee57d27160e4
   },
   "author": "",
   "license": "ISC",
