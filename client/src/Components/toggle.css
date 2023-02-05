@@ -1,0 +1,38 @@
+.toggle-container {
+    position: relative;
+    width: 120px;
+    height: 32px;
+    background-color: #e5e1e1;
+    cursor: pointer;
+    -webkit-user-select: none;
+    user-select: none;
+    border-radius: 19px;
+    padding: 1px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.toggle-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    width: 86px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 15px;
+    cursor: pointer;
+    color: white;
+    background-color: #0F6EFF;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 25%);
+    padding: 8px 12px;
+    border-radius: 18px;
+    position: absolute;
+    transition: all 0.2s ease;
+    left: 2px;
+}
+
+.disable{
+    background-color:#0F6EFF;
+    left: 34px;
+  }
